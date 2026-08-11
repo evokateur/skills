@@ -1,6 +1,4 @@
-# Agent Skills Repository
-
-## Skills Directory
+# Agent Skills
 
 - [MCP Builder](https://github.com/evokateur/skills/blob/main/skills/mcp-builder/SKILL.md) (Anthropic)
 - [Skill Creator](https://github.com/evokateur/skills/blob/main/skills/skill-creator/SKILL.md) (Anthropic)
