@@ -1,8 +1,8 @@
 # ADR Format
 
-ADRs live in `docs/adr/` and use sequential numbering: `0001-slug.md`, `0002-slug.md`, etc.
+ADRs are notes in the vault folder `projects/<project>/adr/` (or `projects/<project>/<context>/adr/`) and use sequential numbering: `0001-slug`, `0002-slug`, etc.
 
-Create the `docs/adr/` directory lazily: only when the first ADR is needed.
+Create the `adr/` folder lazily: only when the first ADR is needed.
 
 ## Template
 
@@ -24,7 +24,7 @@ Only include these when they add genuine value. Most ADRs won't need them.
 
 ## Numbering
 
-Scan `docs/adr/` for the highest existing number and increment by one.
+List the notes in that `adr/` folder, take the highest existing number, and increment by one.
 
 ## When to offer an ADR
 
