@@ -1,5 +1,6 @@
 # Agent Skills
 
+- [Code Review](https://github.com/evokateur/skills/blob/main/skills/code-review/SKILL.md) (Matt Pocock, adapted)
 - [Codebase Design](https://github.com/evokateur/skills/blob/main/skills/codebase-design/SKILL.md) (Matt Pocock, adapted)
 - [Domain Modeling](https://github.com/evokateur/skills/blob/main/skills/domain-modeling/SKILL.md) (Matt Pocock, adapted)
 - [Grill Me](https://github.com/evokateur/skills/blob/main/skills/grill-me/SKILL.md) (Matt Pocock)
@@ -12,4 +13,4 @@
 - [Triage Issue](https://github.com/evokateur/skills/blob/main/skills/triage-issue/SKILL.md) (Atlassian)
 - [Upwork Proposal](https://github.com/evokateur/skills/blob/main/skills/upwork-proposal/SKILL.md)
 
-Matt Pocock's skills are copied from [mattpocock/skills@5beb35b](https://github.com/mattpocock/skills/tree/5beb35b). Those marked adapted keep the glossary and ADRs in the Obsidian vault under `projects/<project>/`.
+Matt Pocock's skills are copied from [mattpocock/skills@5beb35b](https://github.com/mattpocock/skills/tree/5beb35b). Those marked adapted keep the glossary, ADRs and specs in the Obsidian vault under `projects/<project>/`.
