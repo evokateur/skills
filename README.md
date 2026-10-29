@@ -8,6 +8,7 @@
 - [Improve Codebase Architecture](https://github.com/evokateur/skills/blob/main/skills/improve-codebase-architecture/SKILL.md) (Matt Pocock, adapted)
 - [MCP Builder](https://github.com/evokateur/skills/blob/main/skills/mcp-builder/SKILL.md) (Anthropic)
 - [Skill Creator](https://github.com/evokateur/skills/blob/main/skills/skill-creator/SKILL.md) (Anthropic)
+- [TDD](https://github.com/evokateur/skills/blob/main/skills/tdd/SKILL.md) (Matt Pocock, adapted)
 - [Triage Issue](https://github.com/evokateur/skills/blob/main/skills/triage-issue/SKILL.md) (Atlassian)
 - [Upwork Proposal](https://github.com/evokateur/skills/blob/main/skills/upwork-proposal/SKILL.md)
 
