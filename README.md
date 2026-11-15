@@ -15,4 +15,4 @@
 - [Upwork Proposal](https://github.com/evokateur/skills/blob/main/skills/upwork-proposal/SKILL.md)
 - [Writing For Agents](https://github.com/evokateur/skills/blob/main/skills/writing-for-agents/SKILL.md) (Matt Pocock)
 
-Matt Pocock's skills are copied from [mattpocock/skills](https://github.com/mattpocock/skills); each skill's commit history names the upstream commit it was copied or last synced from. Those marked adapted keep the glossary, ADRs, specs, and coding standards as Obsidian notes.
+Matt Pocock's skills are copied from [mattpocock/skills](https://github.com/mattpocock/skills). Those marked adapted keep the glossary, ADRs, specs, and coding standards as Obsidian notes.
