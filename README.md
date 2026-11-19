@@ -5,6 +5,7 @@
 - [Grill Me](https://github.com/evokateur/skills/blob/main/skills/grill-me/SKILL.md) (Matt Pocock)
 - [Grill With Docs](https://github.com/evokateur/skills/blob/main/skills/grill-with-docs/SKILL.md) (Matt Pocock)
 - [Grilling](https://github.com/evokateur/skills/blob/main/skills/grilling/SKILL.md) (Matt Pocock)
+- [Handoff](https://github.com/evokateur/skills/blob/main/skills/handoff/SKILL.md) (Matt Pocock, adapted)
 - [Improve Codebase Architecture](https://github.com/evokateur/skills/blob/main/skills/improve-codebase-architecture/SKILL.md) (Matt Pocock, adapted)
 - [MCP Builder](https://github.com/evokateur/skills/blob/main/skills/mcp-builder/SKILL.md) (Anthropic)
 - [Retro](https://github.com/evokateur/skills/blob/main/skills/retro/SKILL.md) (Matt Pocock, adapted)
