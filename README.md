@@ -10,6 +10,7 @@
 - [Retro](https://github.com/evokateur/skills/blob/main/skills/retro/SKILL.md) (Matt Pocock, adapted)
 - [Skill Creator](https://github.com/evokateur/skills/blob/main/skills/skill-creator/SKILL.md) (Anthropic)
 - [TDD](https://github.com/evokateur/skills/blob/main/skills/tdd/SKILL.md) (Matt Pocock, adapted)
+- [Teach](https://github.com/evokateur/skills/blob/main/skills/teach/SKILL.md) (Matt Pocock)
 - [Triage Issue](https://github.com/evokateur/skills/blob/main/skills/triage-issue/SKILL.md) (Atlassian)
 - [Two-Axis Review](https://github.com/evokateur/skills/blob/main/skills/two-axis-review/SKILL.md) (Matt Pocock, adapted from `code-review`)
 - [Upwork Proposal](https://github.com/evokateur/skills/blob/main/skills/upwork-proposal/SKILL.md)
