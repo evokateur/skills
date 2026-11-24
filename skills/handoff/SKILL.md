@@ -21,7 +21,7 @@ If the user passed arguments, treat them as a description of what the next sessi
 
 ## Load
 
-List `areas/dev/agents/handoffs/`. Take the note the user's remaining arguments describe; with no arguments, take the only note. When more than one note fits, list them with their `source` and ask the user which.
+List `areas/dev/agents/handoffs/`. Take the note the user's remaining arguments describe; with no arguments, take the note whose `source` matches the current working directory, or the only note if none does. When more than one note fits, list them with their `source` and ask the user which.
 
 Read the note and every artifact it references. Check each claim that is cheap to check (git state, the files and branches it names), then report a summary of the work, the next step, and every claim that did not hold or could not be checked.
 
