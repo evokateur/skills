@@ -1,6 +1,6 @@
 # hrvst recipes
 
-Prerequisite: `hrvst` must be excluded from the Claude Code sandbox with `"sandbox": {"excludedCommands": ["hrvst *"]}` in `~/.claude/settings.json`. Inside the sandbox it fails with "fetch failed", because Node's built-in `fetch` ignores the sandbox's `HTTPS_PROXY`. The exclusion only applies when the whole call is `hrvst …`, so don't pipe the output, chain commands, or `cd` first. Use `--fields` (dotted paths such as `task.name` work) and `--output json|table` to shape the output.
+Prerequisite: `hrvst` must work in the Claude Code sandbox, and `"sandbox": {"excludedCommands": ["hrvst *"]}` in `~/.claude/settings.json` is one way of doing it. Inside the sandbox it fails with "fetch failed", because Node's built-in `fetch` ignores the sandbox's `HTTPS_PROXY`. The exclusion only applies when the whole call is `hrvst …`, so don't pipe the output, chain commands, or `cd` first. Use `--fields` (dotted paths such as `task.name` work) and `--output json|table` to shape the output.
 
 ## Check the last time entry
 
