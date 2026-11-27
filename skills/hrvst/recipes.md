@@ -32,14 +32,23 @@ The task must already be assigned to the entry's project (add `--project_id` to 
 ## Log a duration
 
 ```sh
-hrvst alias list                                                        # find an existing $ALIAS
-hrvst alias create "$ALIAS" --project_id "$PROJECT_ID" --task_id "$TASK_ID"   # once per project/task pair
+hrvst log "$HOURS" --project_id "$PROJECT_ID" --task_id "$TASK_ID" --notes "$NOTES"
+```
+Preferred way to record a finished amount of time. Provided by the user; syntax checked against `--help`, not yet run.
+
+An alias can replace `--project_id`/`--task_id`.
+```sh
 hrvst log "$HOURS" "$ALIAS" --notes "$NOTES"                            # e.g. hrvst log .35 skills --notes '...'
 ```
 
-Preferred way to record a finished amount of time. `--project_id`/`--task_id` can replace the alias. Aliases are stored locally by hrvst. Provided by the user; syntax checked against `--help`, not yet run.
+Aliases are stored locally by hrvst.
 
-## Start a timer from a past time
+```sh
+hrvst alias list                                                        # find an existing $ALIAS
+hrvst alias create "$ALIAS" --project_id "$PROJECT_ID" --task_id "$TASK_ID"   # once per project/task pair
+```
+
+## Start a timer from a past time, or log an entry with start and end times
 
 ```sh
 hrvst time-entries create --project_id "$PROJECT_ID" --task_id "$TASK_ID" --spent_date "$DATE" --notes "$NOTES" --fields id,is_running   # -> $ENTRY_ID
@@ -47,7 +56,7 @@ hrvst time-entries update --time_entry_id "$ENTRY_ID" --started_time "$START" --
 hrvst time-entries update --time_entry_id "$ENTRY_ID" --ended_time "$END"   # only to close it at a past time; omit to keep the timer running
 ```
 
-The account tracks start/end times, so `create --hours` is ignored and the entry starts as a running timer at the current time. `create` has no start/end flags; set them with `update` (format like `1:17am`). Verified through setting `--started_time`; closing with `--ended_time` is syntax-checked only.
+The account tracks start/end times, so `create --hours` is ignored and the entry starts as a running timer at the current time. `create` has no start/end flags; set them with `update` (format like `1:17am`; Harvest echoes 24-hour times such as `1:17`). After `--ended_time`, the entry stops running and its hours come from start to end. `hrvst alias list` maps an alias to `$PROJECT_ID`/`$TASK_ID`. Verified end to end, including closing with `--ended_time`.
 
 ## Note on help output
 
